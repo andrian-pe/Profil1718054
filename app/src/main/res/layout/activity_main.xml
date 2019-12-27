@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Andrian Prayoga\n1718054"
+            android:text="@string/namaku"
             android:textAlignment="textEnd"
             android:textColor="#fff"
             android:textSize="30dp"
@@ -101,7 +101,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="16"
+                    android:text="@string/enam"
                     android:textColor="#fff"
                     android:textSize="20sp"
                     android:textStyle="bold"></TextView>
@@ -109,7 +109,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="POST"
+                    android:text="@string/post"
                     android:textColor="#fff"
                     android:textSize="18sp"></TextView>
 
@@ -129,7 +129,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="38"
+                    android:text="@string/delapan"
                     android:textColor="#fff"
                     android:textSize="20sp"
                     android:textStyle="bold"></TextView>
@@ -137,7 +137,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="FOLLOWERS"
+                    android:text="@string/follower"
                     android:textColor="#fff"
                     android:textSize="18sp"></TextView>
 
@@ -157,7 +157,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="95"
+                    android:text="@string/sembilan"
                     android:textColor="#fff"
                     android:textSize="20sp"
                     android:textStyle="bold"></TextView>
@@ -165,7 +165,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Following"
+                    android:text="@string/following"
                     android:textColor="#fff"
                     android:textSize="18sp"></TextView>
 
@@ -187,20 +187,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="20dp"
-            android:layout_height="24dp"
+            android:id="@+id/btn_setting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/setting_black"
-            app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:id="@+id/btn_follow"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:background="@drawable/btn_follow"
-            android:text="F O L L O W"
+            android:text="@string/ikuti"
             android:textColor="#fff"
             android:textSize="18dp"
             android:textStyle="bold"
@@ -233,7 +234,7 @@
             android:id="@+id/textView2"
             android:layout_width="249dp"
             android:layout_height="46dp"
-            android:text="E-Mail : andrianprayoga@gmail.com"
+            android:text="@string/email"
             android:textColor="#fff"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -243,15 +244,7 @@
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             app:layout_constraintVertical_bias="0.191" />
 
-        <LinearLayout
-            android:layout_width="230dp"
-            android:layout_height="44dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-        </LinearLayout>
-
-        <TextView
+       <TextView
             android:id="@+id/textView4"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -268,7 +261,7 @@
             android:layout_width="wrap_content"
             android:layout_height="44dp"
             android:layout_marginStart="50dp"
-            android:text="Phone Number \n08214767xxxx"
+            android:text="@string/pone"
             android:textColor="#fff"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"

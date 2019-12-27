@@ -1,15 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Profil1718054</string>
     <string name="namaku">Andrian Prayoga \n 1718054</string>
     <string name="enam">16</string>
-    <string name="post">POST</string>
+    <string name="post">POS</string>
     <string name="delapan">38</string>
-    <string name="follower">FOLLOWER</string>
+    <string name="follower">PENGIKUT</string>
     <string name="sembilan">95</string>
-    <string name="following">FOLLOWING</string>
-    <string name="ikuti">FOLLOW</string>
+    <string name="following">DIIKUTI</string>
+    <string name="ikuti">IKUTI</string>
     <string name="email">EMAIL: \n andrianprayoga@gmail.com</string>
-    <string name="pone">Phone Number: \n 082333xxxxxx</string>
-
-
+    <string name="pone">Nomor Telepon: \n 082333xxxxxx</string>
 </resources>
